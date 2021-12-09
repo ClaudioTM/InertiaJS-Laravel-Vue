@@ -1,13 +1,13 @@
 <template>
-    <h1 class="text-4xl font-bold">Settings</h1>
 
-    <Nav />
+        <h1 class="text-3xl font-bold">Settings</h1>
+
 </template>
 
-<script>
-import Nav from "../Shared/Nav";
+<!--<script>-->
+<!--import Layout from "../Shared/Layout";-->
 
-export default {
-    components: { Nav },
-};
-</script>
+<!--export default {-->
+<!--    layout: Layout-->
+<!--};-->
+<!--</script>-->
