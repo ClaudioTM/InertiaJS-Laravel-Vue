@@ -1,4 +1,8 @@
 <template>
+
+    <Head>
+        <title>My App</title>
+    </Head>
     <section class="p-6 bg-indigo-900 text-white">
     <header class="flex justify-between">
         <div class="flex items-center">
@@ -23,10 +27,12 @@
 
 <script>
 import Nav from "./Nav"
+import { Head } from "@inertiajs/inertia-vue3"
 
 export default {
     components: {
-        Nav
+        Nav,
+        Head
     },
     computed: {
         username() {
