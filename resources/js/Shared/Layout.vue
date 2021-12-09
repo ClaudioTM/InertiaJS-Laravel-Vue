@@ -6,9 +6,9 @@
     <section class="p-6 bg-indigo-900 text-white">
     <header class="flex justify-between">
         <div class="flex items-center">
-            <h1 class="font-bold text-lg">
+            <Link href="/" class="font-bold text-lg">
                 My App
-            </h1>
+            </Link>
 
             <p class="text-sm ml-4">
                 Welcome Back, {{ username }}!
